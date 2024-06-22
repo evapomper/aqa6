@@ -1,29 +1,8 @@
 package Lesson_5;
 
-
 import java.util.Arrays;
 
 public class Lesson5 {
-
-    public static void main(String[] args) {
-        int[] arr = { 1, 1, 0, 0, 1, 0, 1, 1, 0, 0 };
-        int[] arr1 = {1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1};
-        printThreeWords();
-        System.out.println(checkSumSign(0, -1));
-        System.out.println(printColor(101));
-        System.out.println(compareNumbers(0, 1));
-        System.out.println(isSumfrom10to20(10, 11));
-        System.out.println(positiveOrNegative(101));
-        System.out.println(isNegative(-101));
-        printString("text", 2);
-        System.out.println(isLeapYear(2024));
-        System.out.println(Arrays.toString(replaceNumberInArray(arr)));
-        System.out.println(Arrays.toString(fillArray()));
-        System.out.println(Arrays.toString(multiplyDigitsLessSix(arr1)));
-        System.out.println(Arrays.deepToString(createMatrix(5)));
-        System.out.println(Arrays.toString(createArray(5, 2)));
-    }
-
     /**
      * 1. Создайте метод printThreeWords(), который при вызове должен отпечатать в столбец три слова: Orange, Banana, Apple.
      */
